@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 const Pokemon = ({
   name,
   image,
@@ -20,14 +18,5 @@ const Pokemon = ({
     <a href={pokedex}>Detailed Pokedex Page</a>
   </figure>
 );
-
-Pokemon.propTypes = {
-  name: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  typeOne: PropTypes.string.isRequired,
-  typeTwo: PropTypes.string.isRequired,
-  attack: PropTypes.number.isRequired,
-  defense: PropTypes.number.isRequired,
-};
 
 export default Pokemon;
